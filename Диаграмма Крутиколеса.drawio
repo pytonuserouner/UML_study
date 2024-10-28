@@ -4,7 +4,7 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="4GGu_9tVLiwE7nT8yt3T-5" value="Создание заявки на бронирование" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="4GGu_9tVLiwE7nT8yt3T-5" value="Создание заявки на бронирование Товара" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4GGu_9tVLiwE7nT8yt3T-13" value="Авторизация пользователя" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -34,16 +34,22 @@
             <mxPoint x="200" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4GGu_9tVLiwE7nT8yt3T-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="4GGu_9tVLiwE7nT8yt3T-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="4GGu_9tVLiwE7nT8yt3T-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="630" as="sourcePoint" />
-            <mxPoint x="400" y="580" as="targetPoint" />
+            <mxPoint x="150" y="320" as="sourcePoint" />
+            <mxPoint x="180" y="275" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="220" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4GGu_9tVLiwE7nT8yt3T-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="640" as="sourcePoint" />
-            <mxPoint x="410" y="590" as="targetPoint" />
+            <mxPoint x="150" y="440" as="sourcePoint" />
+            <mxPoint x="200" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="540" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4GGu_9tVLiwE7nT8yt3T-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -57,6 +63,12 @@
             <mxPoint x="380" y="660" as="sourcePoint" />
             <mxPoint x="430" y="610" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4GGu_9tVLiwE7nT8yt3T-29" value="Получить помощь от технической поддержки" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4GGu_9tVLiwE7nT8yt3T-30" value="Оставить отзыв о работе Сервиса" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="520" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
