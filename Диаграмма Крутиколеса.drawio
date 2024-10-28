@@ -52,7 +52,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4GGu_9tVLiwE7nT8yt3T-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="4GGu_9tVLiwE7nT8yt3T-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4GGu_9tVLiwE7nT8yt3T-5" target="4GGu_9tVLiwE7nT8yt3T-31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="650" as="sourcePoint" />
             <mxPoint x="420" y="600" as="targetPoint" />
@@ -69,6 +69,12 @@
         </mxCell>
         <mxCell id="4GGu_9tVLiwE7nT8yt3T-30" value="Оставить отзыв о работе Сервиса" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4GGu_9tVLiwE7nT8yt3T-31" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="435" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4GGu_9tVLiwE7nT8yt3T-33" value="Пользователь авторизован?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="420" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
