@@ -67,7 +67,7 @@
         <mxCell id="_352U6r1tiJMxSs29HgW-17" value="Сохранить запись информации о заказе в базу данных" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_352U6r1tiJMxSs29HgW-13">
           <mxGeometry x="630" y="290" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_352U6r1tiJMxSs29HgW-18" value="Пользователь ввел символы кириллицы" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_352U6r1tiJMxSs29HgW-13">
+        <mxCell id="_352U6r1tiJMxSs29HgW-18" value="Поле ввода пустое?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_352U6r1tiJMxSs29HgW-13">
           <mxGeometry x="390" y="120" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_352U6r1tiJMxSs29HgW-20" value="Проверить корректность введенных данных" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_352U6r1tiJMxSs29HgW-13">
@@ -83,15 +83,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_352U6r1tiJMxSs29HgW-23" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_352U6r1tiJMxSs29HgW-13">
-          <mxGeometry x="330" y="110" width="60" height="30" as="geometry" />
+          <mxGeometry x="450" y="180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_352U6r1tiJMxSs29HgW-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="_352U6r1tiJMxSs29HgW-13" target="_352U6r1tiJMxSs29HgW-14">
+        <mxCell id="_352U6r1tiJMxSs29HgW-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="_352U6r1tiJMxSs29HgW-13" target="_352U6r1tiJMxSs29HgW-14" source="_352U6r1tiJMxSs29HgW-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="185" y="120" as="sourcePoint" />
             <mxPoint x="540" y="-80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_352U6r1tiJMxSs29HgW-27" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_352U6r1tiJMxSs29HgW-13">
+        <mxCell id="_352U6r1tiJMxSs29HgW-27" value="Да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_352U6r1tiJMxSs29HgW-13">
           <mxGeometry x="330" y="210" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_352U6r1tiJMxSs29HgW-28" value="Да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_352U6r1tiJMxSs29HgW-13">
@@ -122,12 +122,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_352U6r1tiJMxSs29HgW-34" value="Отобразить сообщение &quot;Отзыв должен содержать текстовое сообщение&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_352U6r1tiJMxSs29HgW-13">
-          <mxGeometry x="110" y="115" width="150" height="60" as="geometry" />
+          <mxGeometry x="180" y="115" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_352U6r1tiJMxSs29HgW-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_352U6r1tiJMxSs29HgW-13" source="_352U6r1tiJMxSs29HgW-18" target="_352U6r1tiJMxSs29HgW-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="245" y="265" as="sourcePoint" />
             <mxPoint x="295" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_352U6r1tiJMxSs29HgW-39" value="Пользователь ввел символы кириллицы" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_352U6r1tiJMxSs29HgW-13">
+          <mxGeometry x="390" y="220" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_352U6r1tiJMxSs29HgW-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_352U6r1tiJMxSs29HgW-13" source="_352U6r1tiJMxSs29HgW-18" target="_352U6r1tiJMxSs29HgW-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="310" as="sourcePoint" />
+            <mxPoint x="340" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_352U6r1tiJMxSs29HgW-42" value="Да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_352U6r1tiJMxSs29HgW-13">
+          <mxGeometry x="330" y="115" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_352U6r1tiJMxSs29HgW-43" value="Отобразить сообщение &quot;Отзыв должен содержать текстовое сообщение&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_352U6r1tiJMxSs29HgW-13">
+          <mxGeometry x="180" y="215" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_352U6r1tiJMxSs29HgW-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_352U6r1tiJMxSs29HgW-13" source="_352U6r1tiJMxSs29HgW-39" target="_352U6r1tiJMxSs29HgW-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="376.78" y="350" as="sourcePoint" />
+            <mxPoint x="426.78" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_352U6r1tiJMxSs29HgW-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_352U6r1tiJMxSs29HgW-1" source="_352U6r1tiJMxSs29HgW-9" target="_352U6r1tiJMxSs29HgW-20">
@@ -140,6 +161,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="630" y="350" as="sourcePoint" />
             <mxPoint x="680" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_352U6r1tiJMxSs29HgW-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="470" as="sourcePoint" />
+            <mxPoint x="640" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
