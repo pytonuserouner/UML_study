@@ -25,11 +25,14 @@
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="Система" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="280" width="950" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="2t8vyNCIYRHOkT8QcorT-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+        <mxCell id="2t8vyNCIYRHOkT8QcorT-6" value="Отобразить Пользователю форму для заказа" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="125" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2t8vyNCIYRHOkT8QcorT-7" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="270" y="180" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2t8vyNCIYRHOkT8QcorT-14" value="" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=1;aspect=fixed;image=img/clipart/Gear_128x128.png" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="130" y="90" width="13.22" height="15.5" as="geometry" />
         </mxCell>
         <mxCell id="2t8vyNCIYRHOkT8QcorT-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="2t8vyNCIYRHOkT8QcorT-2" target="2t8vyNCIYRHOkT8QcorT-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
