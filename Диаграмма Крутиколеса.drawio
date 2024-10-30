@@ -124,23 +124,20 @@
         <mxCell id="YXGHm_3vQLwqvM9Ij1ch-27" value="Система" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="960" y="354" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YXGHm_3vQLwqvM9Ij1ch-28" value="Добавить запись о заказе в историю заказов" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="200" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="YXGHm_3vQLwqvM9Ij1ch-29" value="Создать виртуальную бонусную карту Пользователя" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="90" width="120" height="80" as="geometry" />
+          <mxGeometry x="720" y="90" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YXGHm_3vQLwqvM9Ij1ch-30" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="530" width="120" height="80" as="geometry" />
+        <mxCell id="YXGHm_3vQLwqvM9Ij1ch-30" value="Авторизировать Пользователя" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="420" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YXGHm_3vQLwqvM9Ij1ch-31" value="Сохранить отзыв, созданный Пользователем" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="300" width="120" height="80" as="geometry" />
+          <mxGeometry x="720" y="200" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YXGHm_3vQLwqvM9Ij1ch-32" value="Сохранить заявку Пользователя на бронирование Товара" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="414" width="120" height="80" as="geometry" />
+          <mxGeometry x="720" y="310" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YXGHm_3vQLwqvM9Ij1ch-33" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="650" width="120" height="80" as="geometry" />
+        <mxCell id="YXGHm_3vQLwqvM9Ij1ch-33" value="Добавить созданный Пользователем заказ в историю заказов" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="520" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
