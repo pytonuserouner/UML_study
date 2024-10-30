@@ -19,7 +19,7 @@
             <mxPoint x="130" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_352U6r1tiJMxSs29HgW-6" value="Заполнить форму для заполнения отзыва" style="rounded=1;whiteSpace=wrap;html=1;" parent="_352U6r1tiJMxSs29HgW-2" vertex="1">
+        <mxCell id="_352U6r1tiJMxSs29HgW-6" value="Заполнить форму для создания отзыва" style="rounded=1;whiteSpace=wrap;html=1;" parent="_352U6r1tiJMxSs29HgW-2" vertex="1">
           <mxGeometry x="260" y="100" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_352U6r1tiJMxSs29HgW-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=6;" parent="_352U6r1tiJMxSs29HgW-2" vertex="1">
