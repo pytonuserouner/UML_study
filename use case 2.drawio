@@ -73,7 +73,7 @@
         <mxCell id="_352U6r1tiJMxSs29HgW-13" value="Система" style="swimlane;html=1;startSize=20;horizontal=0;" parent="_352U6r1tiJMxSs29HgW-1" vertex="1">
           <mxGeometry x="20" y="280" width="950" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="_352U6r1tiJMxSs29HgW-14" value="Отобразить Пользователю форму для заполнения отзыва" style="rounded=1;whiteSpace=wrap;html=1;" parent="_352U6r1tiJMxSs29HgW-13" vertex="1">
+        <mxCell id="_352U6r1tiJMxSs29HgW-14" value="Отобразить Пользователю форму для создания отзыва" style="rounded=1;whiteSpace=wrap;html=1;" parent="_352U6r1tiJMxSs29HgW-13" vertex="1">
           <mxGeometry x="125" y="19.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_352U6r1tiJMxSs29HgW-15" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="_352U6r1tiJMxSs29HgW-13" vertex="1">
