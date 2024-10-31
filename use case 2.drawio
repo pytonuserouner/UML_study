@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_352U6r1tiJMxSs29HgW-1" value="Создание заявки" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;resizeHeight=1;resizeWidth=1;" parent="1" vertex="1">
+        <mxCell id="_352U6r1tiJMxSs29HgW-1" value="Создание отзыва" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;resizeHeight=1;resizeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="120" width="970" height="640" as="geometry" />
         </mxCell>
         <mxCell id="_352U6r1tiJMxSs29HgW-2" value="Пользователь" style="swimlane;html=1;startSize=20;horizontal=0;" parent="_352U6r1tiJMxSs29HgW-1" vertex="1">
