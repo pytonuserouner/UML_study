@@ -141,7 +141,7 @@
         <mxCell id="jiEIARZ9jSRHxwMc_y1Y-34" value="Отправить SMS оповещение о выселении" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="jiEIARZ9jSRHxwMc_y1Y-23">
           <mxGeometry x="120" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jiEIARZ9jSRHxwMc_y1Y-35" value="Получить информацию о согласии" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="jiEIARZ9jSRHxwMc_y1Y-23">
+        <mxCell id="jiEIARZ9jSRHxwMc_y1Y-35" value="Получить информацию о согласии на переезд" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="jiEIARZ9jSRHxwMc_y1Y-23">
           <mxGeometry x="550" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jiEIARZ9jSRHxwMc_y1Y-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jiEIARZ9jSRHxwMc_y1Y-23" source="jiEIARZ9jSRHxwMc_y1Y-26" target="jiEIARZ9jSRHxwMc_y1Y-34">
@@ -195,7 +195,7 @@
         <mxCell id="jiEIARZ9jSRHxwMc_y1Y-46" value="Получить информацию об отказе" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="jiEIARZ9jSRHxwMc_y1Y-23">
           <mxGeometry x="835" y="215" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jiEIARZ9jSRHxwMc_y1Y-47" value="Поставить статут дерева &quot;Запрет вырубки&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="jiEIARZ9jSRHxwMc_y1Y-23">
+        <mxCell id="jiEIARZ9jSRHxwMc_y1Y-47" value="Поставить статус дерева &quot;Запрет вырубки&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="jiEIARZ9jSRHxwMc_y1Y-23">
           <mxGeometry x="760" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jiEIARZ9jSRHxwMc_y1Y-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jiEIARZ9jSRHxwMc_y1Y-23" source="jiEIARZ9jSRHxwMc_y1Y-46" target="jiEIARZ9jSRHxwMc_y1Y-49">
