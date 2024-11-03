@@ -151,10 +151,10 @@
             <mxPoint x="180" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vvhtIy6VccE0VMpwj7qD-35" value="Поставить статус дерева &quot;Готово к вырубке&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="vvhtIy6VccE0VMpwj7qD-21">
+        <mxCell id="vvhtIy6VccE0VMpwj7qD-35" value="Одобрить заявку" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="vvhtIy6VccE0VMpwj7qD-21">
           <mxGeometry x="820" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vvhtIy6VccE0VMpwj7qD-37" value="Поставить статус дерева &quot;Запрет вырубки&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="vvhtIy6VccE0VMpwj7qD-21">
+        <mxCell id="vvhtIy6VccE0VMpwj7qD-37" value="Отказать в одобрении заявки" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="vvhtIy6VccE0VMpwj7qD-21">
           <mxGeometry x="675" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vvhtIy6VccE0VMpwj7qD-38" value="Отправить SMS уведомление о смене статуса дерева" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="vvhtIy6VccE0VMpwj7qD-21">
