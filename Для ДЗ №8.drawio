@@ -136,8 +136,8 @@
         <mxCell id="Whp4S6Blv64zcGF4WcE9-34" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Вывод данных для печати&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="850" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Whp4S6Blv64zcGF4WcE9-35" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Ведение списка проектов&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="700" width="110" height="60" as="geometry" />
+        <mxCell id="Whp4S6Blv64zcGF4WcE9-35" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Регистрация и управление учётными записями пользователей&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="645" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Whp4S6Blv64zcGF4WcE9-36" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Whp4S6Blv64zcGF4WcE9-31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
