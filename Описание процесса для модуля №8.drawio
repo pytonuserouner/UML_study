@@ -52,7 +52,7 @@
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="Руководитель" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="240" width="760" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="J7SbKGYpMnPE5DEa0efI-5" value="Просмотр отчета" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
+        <mxCell id="J7SbKGYpMnPE5DEa0efI-5" value="Предварительный просмотр отчета" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="270" y="35" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J7SbKGYpMnPE5DEa0efI-7" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
@@ -76,7 +76,7 @@
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Супервизор" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="440" width="760" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="J7SbKGYpMnPE5DEa0efI-10" value="Просмотр отчета" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+        <mxCell id="J7SbKGYpMnPE5DEa0efI-10" value="Рассмотрение отчета для его утверждения" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
           <mxGeometry x="270" y="35" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J7SbKGYpMnPE5DEa0efI-11" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
