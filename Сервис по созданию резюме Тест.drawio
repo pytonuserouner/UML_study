@@ -5,7 +5,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="M-aOTeu6m2sU6AcI4HAz-19" value="Пользователь" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="250" width="180" height="150" as="geometry">
+          <mxGeometry x="300" y="190" width="180" height="150" as="geometry">
             <mxRectangle x="110" y="340" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -217,7 +217,7 @@
             <mxPoint x="440" y="250" as="sourcePoint" />
             <mxPoint x="490" y="200" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="270" y="295" />
+              <mxPoint x="270" y="235" />
               <mxPoint x="270" y="75" />
             </Array>
           </mxGeometry>
