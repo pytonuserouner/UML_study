@@ -25,7 +25,7 @@
         <mxCell id="P7B92xdR4_jTVlOhPiBj-10" value="Пользователь получил sms оповещение об одобрении заявки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P7B92xdR4_jTVlOhPiBj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P7B92xdR4_jTVlOhPiBj-12" target="P7B92xdR4_jTVlOhPiBj-15">
+        <mxCell id="P7B92xdR4_jTVlOhPiBj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P7B92xdR4_jTVlOhPiBj-12" target="P7B92xdR4_jTVlOhPiBj-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P7B92xdR4_jTVlOhPiBj-12" value="&amp;nbsp;Работа с телефонной базой для обзвона клиентов банка с целью информирования о выгодных предложениях" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
