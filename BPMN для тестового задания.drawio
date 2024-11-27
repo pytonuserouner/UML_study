@@ -33,11 +33,16 @@
         <mxCell id="KFqZI7uJ95fgsHJMVkMe-7" value="Нажать на иконку банковского приложения" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
           <mxGeometry x="120" y="116" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KFqZI7uJ95fgsHJMVkMe-9" value="Пройти аутентификацию в приложении" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+        <mxCell id="KFqZI7uJ95fgsHJMVkMe-9" value="Попытка пройти аутентификацию в приложении" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
           <mxGeometry x="240" y="30" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KFqZI7uJ95fgsHJMVkMe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="KFqZI7uJ95fgsHJMVkMe-11" target="KFqZI7uJ95fgsHJMVkMe-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KFqZI7uJ95fgsHJMVkMe-26" value="Аутентификация&lt;div&gt;&amp;nbsp;не пройдена&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KFqZI7uJ95fgsHJMVkMe-15">
+          <mxGeometry x="-0.063" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="KFqZI7uJ95fgsHJMVkMe-11" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
           <mxGeometry x="265" y="121" width="50" height="50" as="geometry" />
@@ -50,7 +55,7 @@
             <mxPoint x="465" y="146" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KFqZI7uJ95fgsHJMVkMe-14" value="Аутентификация не пройдена" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+        <mxCell id="KFqZI7uJ95fgsHJMVkMe-14" value="Повторно попытаться пройти аутентификацию в приложении" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
           <mxGeometry x="410" y="170" width="110" height="56" as="geometry" />
         </mxCell>
         <mxCell id="KFqZI7uJ95fgsHJMVkMe-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="KFqZI7uJ95fgsHJMVkMe-16" target="KFqZI7uJ95fgsHJMVkMe-9">
@@ -70,13 +75,13 @@
         <mxCell id="KFqZI7uJ95fgsHJMVkMe-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="KFqZI7uJ95fgsHJMVkMe-21" target="dNxyNK7c78bLwvsdeMH5-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KFqZI7uJ95fgsHJMVkMe-21" value="Выход пользователя из приложения" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
-          <mxGeometry x="500" y="24" width="110" height="56" as="geometry" />
+        <mxCell id="KFqZI7uJ95fgsHJMVkMe-21" value="Блокировка приложения" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+          <mxGeometry x="530" y="24" width="110" height="56" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="Банковское приложение" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="240" width="1070" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-26" value="Аутентификация пройдена" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-26" value="Открыть вкладку &quot;Переводы&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="235" y="26" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Сотовый оператор" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
@@ -84,6 +89,11 @@
         </mxCell>
         <mxCell id="KFqZI7uJ95fgsHJMVkMe-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="KFqZI7uJ95fgsHJMVkMe-11" target="dNxyNK7c78bLwvsdeMH5-26">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KFqZI7uJ95fgsHJMVkMe-27" value="Аутентификация&lt;div&gt;пройдена&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KFqZI7uJ95fgsHJMVkMe-13">
+          <mxGeometry x="-0.2211" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
