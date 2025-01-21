@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="934" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,9 +112,9 @@
         <mxCell id="KFqZI7uJ95fgsHJMVkMe-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-21" source="KFqZI7uJ95fgsHJMVkMe-11" target="dNxyNK7c78bLwvsdeMH5-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KFqZI7uJ95fgsHJMVkMe-40" value="Аутентификация&lt;div&gt;&amp;nbsp;пройдена&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KFqZI7uJ95fgsHJMVkMe-39" vertex="1" connectable="0">
+        <mxCell id="KFqZI7uJ95fgsHJMVkMe-40" value="Аутентификация&lt;div&gt;&amp;nbsp;пройдена?&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KFqZI7uJ95fgsHJMVkMe-39" vertex="1" connectable="0">
           <mxGeometry x="-0.1153" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-59" y="-100" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KFqZI7uJ95fgsHJMVkMe-11" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
@@ -128,6 +128,9 @@
         </mxCell>
         <mxCell id="KFqZI7uJ95fgsHJMVkMe-54" value="Уведомить пользователя о списании денежных средств" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="575" y="76" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqmC_oWpwvYgmTA_OSWO-1" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="160" y="140" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Сотовый оператор" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="520" width="1070" height="180" as="geometry" />
@@ -153,9 +156,9 @@
         <mxCell id="KFqZI7uJ95fgsHJMVkMe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-19" source="KFqZI7uJ95fgsHJMVkMe-11" target="KFqZI7uJ95fgsHJMVkMe-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KFqZI7uJ95fgsHJMVkMe-26" value="Аутентификация&lt;div&gt;&amp;nbsp;не пройдена&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KFqZI7uJ95fgsHJMVkMe-15" vertex="1" connectable="0">
+        <mxCell id="KFqZI7uJ95fgsHJMVkMe-26" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KFqZI7uJ95fgsHJMVkMe-15" vertex="1" connectable="0">
           <mxGeometry x="-0.063" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-122" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KFqZI7uJ95fgsHJMVkMe-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.665;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;exitPerimeter=0;" parent="1" source="KFqZI7uJ95fgsHJMVkMe-35" target="KFqZI7uJ95fgsHJMVkMe-44" edge="1">
