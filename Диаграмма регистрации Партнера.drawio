@@ -24,8 +24,57 @@
         <mxCell id="gkfEU69-krK6Z5Lcw23d-8" value="&lt;span style=&quot;color: rgb(22, 22, 22); font-family: Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;Заполнить и отправить Форму регистрации&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="1">
           <mxGeometry x="480" y="165" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="gkfEU69-krK6Z5Lcw23d-11" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" vertex="1" parent="gkfEU69-krK6Z5Lcw23d-8">
+          <mxGeometry x="60" y="-15" width="30" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="gkfEU69-krK6Z5Lcw23d-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gkfEU69-krK6Z5Lcw23d-6" target="gkfEU69-krK6Z5Lcw23d-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gkfEU69-krK6Z5Lcw23d-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gkfEU69-krK6Z5Lcw23d-11" target="gkfEU69-krK6Z5Lcw23d-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="120" />
+              <mxPoint x="220" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gkfEU69-krK6Z5Lcw23d-13" value="3 часа" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gkfEU69-krK6Z5Lcw23d-12">
+          <mxGeometry x="-0.4976" y="2" relative="1" as="geometry">
+            <mxPoint x="98" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gkfEU69-krK6Z5Lcw23d-14" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;dashed=1;dashPattern=5 2 1 2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontSize=8;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="310" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gkfEU69-krK6Z5Lcw23d-15" value="Анализ данных в полученной Форме регистрации" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="570" y="374" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gkfEU69-krK6Z5Lcw23d-16" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gkfEU69-krK6Z5Lcw23d-8" target="gkfEU69-krK6Z5Lcw23d-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="590" y="370" as="sourcePoint" />
+            <mxPoint x="750" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gkfEU69-krK6Z5Lcw23d-17" value="Согласование СБ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="330" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gkfEU69-krK6Z5Lcw23d-18" value="Анализ данных в полученной Форме регистрации" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="890" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gkfEU69-krK6Z5Lcw23d-19" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" vertex="1" parent="1">
+          <mxGeometry x="685" y="180" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gkfEU69-krK6Z5Lcw23d-22" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gkfEU69-krK6Z5Lcw23d-15" target="gkfEU69-krK6Z5Lcw23d-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="370" as="sourcePoint" />
+            <mxPoint x="650" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="320" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
