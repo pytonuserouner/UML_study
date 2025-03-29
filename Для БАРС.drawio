@@ -86,6 +86,15 @@
         <mxCell id="kLCtcZJA-MnO58HOizXd-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-2" source="kLCtcZJA-MnO58HOizXd-31" target="kLCtcZJA-MnO58HOizXd-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kLCtcZJA-MnO58HOizXd-39" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Получение комплекта документов (сведений)&lt;/font&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-2">
+          <mxGeometry x="600" y="190" width="130" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="kLCtcZJA-MnO58HOizXd-43" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;комплект документов (сведений)&lt;/font&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-2">
+          <mxGeometry x="600" y="50" width="130" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="kLCtcZJA-MnO58HOizXd-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-2" source="kLCtcZJA-MnO58HOizXd-39" target="kLCtcZJA-MnO58HOizXd-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="kLCtcZJA-MnO58HOizXd-3" source="kLCtcZJA-MnO58HOizXd-11" target="kLCtcZJA-MnO58HOizXd-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -94,6 +103,12 @@
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.52;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=oval;startFill=0;startSize=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kLCtcZJA-MnO58HOizXd-33" target="kLCtcZJA-MnO58HOizXd-36">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kLCtcZJA-MnO58HOizXd-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=oval;startFill=0;startSize=5;exitX=0.706;exitY=0.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kLCtcZJA-MnO58HOizXd-36" target="kLCtcZJA-MnO58HOizXd-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="655" as="sourcePoint" />
+            <mxPoint x="564" y="750" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
