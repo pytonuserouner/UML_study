@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="690" dy="1796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="836" dy="1928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,7 +89,7 @@
         <mxCell id="kLCtcZJA-MnO58HOizXd-39" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Получение комплекта документов (сведений)&lt;/font&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-2">
           <mxGeometry x="600" y="190" width="130" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="kLCtcZJA-MnO58HOizXd-43" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;комплект документов (сведений)&lt;/font&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-2">
+        <mxCell id="kLCtcZJA-MnO58HOizXd-43" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Проверка комплекта документов (сведений)&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;Times New Roman&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;на наличие оснований для отказа в предоставлении услуги&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-2">
           <mxGeometry x="600" y="50" width="130" height="95" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-2" source="kLCtcZJA-MnO58HOizXd-39" target="kLCtcZJA-MnO58HOizXd-43">
