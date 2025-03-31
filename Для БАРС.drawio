@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kLCtcZJA-MnO58HOizXd-3" value="&lt;span style=&quot;color: rgb(22, 22, 22); font-family: Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;Министерства земельных и имущественных отношений Республики Татарстан&lt;/font&gt;&lt;/span&gt;" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="60" y="-80" width="2840" height="2210" as="geometry" />
+          <mxGeometry x="60" y="-80" width="3130" height="2210" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-1" value="&lt;span style=&quot;color: rgb(22, 22, 22); font-family: Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;Специалист отдела контроля Министерства&lt;/font&gt;&lt;/span&gt;" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" parent="kLCtcZJA-MnO58HOizXd-3" vertex="1">
-          <mxGeometry x="20" width="2820" height="440" as="geometry" />
+          <mxGeometry x="20" width="3110" height="440" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-4" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#d5e8d4;strokeColor=#82b366;" parent="kLCtcZJA-MnO58HOizXd-1" vertex="1">
           <mxGeometry x="50" y="172.5" width="50" height="50" as="geometry" />
@@ -77,8 +77,20 @@
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-84" value="&lt;font face=&quot;Times New Roman&quot;&gt;Зарегистрировать Проект решения&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-1">
           <mxGeometry x="2350" y="157.5" width="130" height="95" as="geometry" />
         </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-87" value="&lt;font face=&quot;Times New Roman&quot;&gt;Выдать заявителю Проект решения и сопроводительное письмо&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-1">
+          <mxGeometry x="2530" y="157.5" width="130" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-1" source="j_5O-uv8FhCoR-RIhAOP-84" target="j_5O-uv8FhCoR-RIhAOP-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-89" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-1">
+          <mxGeometry x="2720" y="180" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-1" source="j_5O-uv8FhCoR-RIhAOP-87" target="j_5O-uv8FhCoR-RIhAOP-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-2" value="&lt;span style=&quot;color: rgb(22, 22, 22); font-family: Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;Специалист отдела&lt;/font&gt;&lt;/span&gt;" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" parent="kLCtcZJA-MnO58HOizXd-3" vertex="1">
-          <mxGeometry x="20" y="440" width="2560" height="510" as="geometry" />
+          <mxGeometry x="20" y="440" width="3110" height="510" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-31" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#161616&quot;&gt;Оформить Лист&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;line-height: 107%;&quot;&gt;прохождения заявления в Минземимуществе РТ&lt;/span&gt;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="kLCtcZJA-MnO58HOizXd-2" vertex="1">
           <mxGeometry x="420" y="145" width="130" height="95" as="geometry" />
@@ -172,13 +184,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-34" value="Начальник отдела" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-3">
-          <mxGeometry x="20" y="950" width="2560" height="210" as="geometry" />
+          <mxGeometry x="20" y="950" width="3110" height="210" as="geometry" />
         </mxCell>
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-38" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Согласовать Проект решения&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="j_5O-uv8FhCoR-RIhAOP-34">
           <mxGeometry x="1250" y="57.5" width="130" height="95" as="geometry" />
         </mxCell>
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-35" value="Начальник Управления" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-3">
-          <mxGeometry x="20" y="1150" width="2560" height="210" as="geometry" />
+          <mxGeometry x="20" y="1150" width="3110" height="210" as="geometry" />
         </mxCell>
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-42" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Согласовать Проект решения&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="j_5O-uv8FhCoR-RIhAOP-35">
           <mxGeometry x="1250" y="50" width="130" height="95" as="geometry" />
@@ -187,7 +199,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-46" value="Специалист правового управления" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-3">
-          <mxGeometry x="20" y="1360" width="2560" height="390" as="geometry" />
+          <mxGeometry x="20" y="1360" width="3110" height="390" as="geometry" />
         </mxCell>
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-47" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Провести правовую экспертизу Проекта решения&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="j_5O-uv8FhCoR-RIhAOP-46">
           <mxGeometry x="1580" y="72.5" width="130" height="95" as="geometry" />
@@ -226,7 +238,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-52" value="Начальник правового управления" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-3">
-          <mxGeometry x="20" y="1750" width="2560" height="220" as="geometry" />
+          <mxGeometry x="20" y="1750" width="3110" height="220" as="geometry" />
         </mxCell>
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-63" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Согласовать Проект решения или Проект заключения&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="j_5O-uv8FhCoR-RIhAOP-52">
           <mxGeometry x="2100" y="62.5" width="130" height="95" as="geometry" />
@@ -277,7 +289,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-81" value="Первый заместитель министра" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-3">
-          <mxGeometry x="20" y="1970" width="2560" height="240" as="geometry" />
+          <mxGeometry x="20" y="1970" width="3110" height="240" as="geometry" />
         </mxCell>
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-82" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Согласовать Проект решения&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="j_5O-uv8FhCoR-RIhAOP-81">
           <mxGeometry x="2225" y="50" width="130" height="95" as="geometry" />
