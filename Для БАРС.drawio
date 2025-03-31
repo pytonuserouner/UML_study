@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="567" dy="1666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1170" dy="2194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,6 +156,12 @@
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-44" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Направить Проект на правовую экспертизу&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-2">
           <mxGeometry x="1430" y="207.5" width="130" height="95" as="geometry" />
         </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-69" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-2">
+          <mxGeometry x="2160" y="117.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-2" source="j_5O-uv8FhCoR-RIhAOP-69" target="j_5O-uv8FhCoR-RIhAOP-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kLCtcZJA-MnO58HOizXd-3" source="kLCtcZJA-MnO58HOizXd-11" target="kLCtcZJA-MnO58HOizXd-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -225,6 +231,9 @@
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-52" value="Начальник правового управления" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-3">
           <mxGeometry x="20" y="1760" width="2560" height="220" as="geometry" />
         </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-63" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Согласовать Проект решения или Проект заключения&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="j_5O-uv8FhCoR-RIhAOP-52">
+          <mxGeometry x="1860" y="50" width="130" height="95" as="geometry" />
+        </mxCell>
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="kLCtcZJA-MnO58HOizXd-3" source="j_5O-uv8FhCoR-RIhAOP-30" target="j_5O-uv8FhCoR-RIhAOP-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -233,6 +242,25 @@
         </mxCell>
         <mxCell id="j_5O-uv8FhCoR-RIhAOP-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-3" source="j_5O-uv8FhCoR-RIhAOP-38" target="j_5O-uv8FhCoR-RIhAOP-42">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-3" source="j_5O-uv8FhCoR-RIhAOP-53" target="j_5O-uv8FhCoR-RIhAOP-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-3" source="j_5O-uv8FhCoR-RIhAOP-56" target="j_5O-uv8FhCoR-RIhAOP-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="kLCtcZJA-MnO58HOizXd-3" source="j_5O-uv8FhCoR-RIhAOP-59" target="j_5O-uv8FhCoR-RIhAOP-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2070" y="1610" />
+              <mxPoint x="1977" y="1610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-3" source="j_5O-uv8FhCoR-RIhAOP-63" target="j_5O-uv8FhCoR-RIhAOP-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2195" y="742.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-36" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Специалисты&lt;br/&gt;органов межведомственного информационного взаимодействия&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="2040" width="1330" height="70" as="geometry" />
