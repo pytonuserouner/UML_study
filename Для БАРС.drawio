@@ -22,6 +22,9 @@
             <mxPoint x="80" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="kLCtcZJA-MnO58HOizXd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kLCtcZJA-MnO58HOizXd-1" source="kLCtcZJA-MnO58HOizXd-9" target="kLCtcZJA-MnO58HOizXd-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-9" value="&lt;span style=&quot;color: rgb(22, 22, 22); background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;&quot;&gt;Проверка заявления и документов на наличие оснований для отказа в приеме документов&lt;/font&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="kLCtcZJA-MnO58HOizXd-1" vertex="1">
           <mxGeometry x="140" y="150" width="130" height="95" as="geometry" />
         </mxCell>
@@ -29,22 +32,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-11" value="&lt;span style=&quot;color: rgb(22, 22, 22); background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;&quot;&gt;Регистрация заявления и приложенных документов&lt;/font&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="kLCtcZJA-MnO58HOizXd-1" vertex="1">
-          <mxGeometry x="540" y="280" width="130" height="95" as="geometry" />
+          <mxGeometry x="420" y="280" width="130" height="95" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-13" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" parent="kLCtcZJA-MnO58HOizXd-1" vertex="1">
-          <mxGeometry x="440" y="172.5" width="50" height="50" as="geometry" />
+          <mxGeometry x="310" y="172.5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-15" value="&lt;font face=&quot;Times New Roman&quot;&gt;Основания для отказа в приеме присутствуют?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="kLCtcZJA-MnO58HOizXd-1" vertex="1">
-          <mxGeometry x="410" y="110" width="115" height="47.5" as="geometry" />
+          <mxGeometry x="277.5" y="120" width="115" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-17" value="&lt;font face=&quot;Times New Roman&quot;&gt;Нет&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="kLCtcZJA-MnO58HOizXd-1" vertex="1">
-          <mxGeometry x="460" y="222.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="290" y="222.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-20" value="&lt;font face=&quot;Times New Roman&quot;&gt;Да&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="kLCtcZJA-MnO58HOizXd-1" vertex="1">
-          <mxGeometry x="470" y="167.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="360" y="167.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-21" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Возврат заявления и документов заявителю без регистрации&lt;/font&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="kLCtcZJA-MnO58HOizXd-1" vertex="1">
-          <mxGeometry x="540" y="150" width="130" height="95" as="geometry" />
+          <mxGeometry x="420" y="150" width="130" height="95" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="kLCtcZJA-MnO58HOizXd-1" source="kLCtcZJA-MnO58HOizXd-13" target="kLCtcZJA-MnO58HOizXd-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -52,36 +55,24 @@
         <mxCell id="kLCtcZJA-MnO58HOizXd-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="kLCtcZJA-MnO58HOizXd-1" source="kLCtcZJA-MnO58HOizXd-13" target="kLCtcZJA-MnO58HOizXd-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="465" y="328" />
+              <mxPoint x="335" y="328" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-25" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" parent="kLCtcZJA-MnO58HOizXd-1" vertex="1">
-          <mxGeometry x="707" y="172.5" width="50" height="50" as="geometry" />
+          <mxGeometry x="600" y="172.5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="kLCtcZJA-MnO58HOizXd-1" source="kLCtcZJA-MnO58HOizXd-21" target="kLCtcZJA-MnO58HOizXd-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-27" value="" style="shape=mxgraph.bpmn.data2;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" parent="kLCtcZJA-MnO58HOizXd-1" vertex="1">
-          <mxGeometry x="585" y="35" width="40" height="60" as="geometry" />
+          <mxGeometry x="465" y="30" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="kLCtcZJA-MnO58HOizXd-1" source="kLCtcZJA-MnO58HOizXd-21" target="kLCtcZJA-MnO58HOizXd-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-29" value="&lt;span style=&quot;line-height: 107%; font-family: Calibri, sans-serif;&quot;&gt;&lt;font&gt;Решение об отказе в приеме документов&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="kLCtcZJA-MnO58HOizXd-1" vertex="1">
-          <mxGeometry x="630" y="35" width="140" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="j_5O-uv8FhCoR-RIhAOP-1" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=catching;symbol=timer;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-1">
-          <mxGeometry x="330" y="172.5" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="j_5O-uv8FhCoR-RIhAOP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-1" source="kLCtcZJA-MnO58HOizXd-9" target="j_5O-uv8FhCoR-RIhAOP-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="j_5O-uv8FhCoR-RIhAOP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-1" source="j_5O-uv8FhCoR-RIhAOP-1" target="kLCtcZJA-MnO58HOizXd-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="j_5O-uv8FhCoR-RIhAOP-4" value="Не более 5 рабочих дней" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-1">
-          <mxGeometry x="325" y="240" width="60" height="30" as="geometry" />
+          <mxGeometry x="505" y="30" width="140" height="45" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-2" value="&lt;span style=&quot;color: rgb(22, 22, 22); font-family: Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;Специалист отдела&lt;/font&gt;&lt;/span&gt;" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" parent="kLCtcZJA-MnO58HOizXd-3" vertex="1">
           <mxGeometry x="20" y="440" width="1310" height="330" as="geometry" />
@@ -98,25 +89,45 @@
         <mxCell id="kLCtcZJA-MnO58HOizXd-39" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Получение комплекта документов (сведений)&lt;/font&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="kLCtcZJA-MnO58HOizXd-2" vertex="1">
           <mxGeometry x="600" y="190" width="130" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="kLCtcZJA-MnO58HOizXd-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kLCtcZJA-MnO58HOizXd-2" source="kLCtcZJA-MnO58HOizXd-43" target="kLCtcZJA-MnO58HOizXd-49" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-43" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Проверка комплекта документов (сведений)&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;Times New Roman&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;на наличие оснований для отказа в предоставлении услуги&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="kLCtcZJA-MnO58HOizXd-2" vertex="1">
           <mxGeometry x="600" y="50" width="130" height="95" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="kLCtcZJA-MnO58HOizXd-2" source="kLCtcZJA-MnO58HOizXd-39" target="kLCtcZJA-MnO58HOizXd-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kLCtcZJA-MnO58HOizXd-49" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" parent="kLCtcZJA-MnO58HOizXd-2" vertex="1">
-          <mxGeometry x="780" y="72.5" width="50" height="50" as="geometry" />
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-11" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-2">
+          <mxGeometry x="775" y="72.5" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kLCtcZJA-MnO58HOizXd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kLCtcZJA-MnO58HOizXd-3" source="kLCtcZJA-MnO58HOizXd-11" target="kLCtcZJA-MnO58HOizXd-31" edge="1">
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-2" source="kLCtcZJA-MnO58HOizXd-43" target="j_5O-uv8FhCoR-RIhAOP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-8" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Основания для отказа&lt;br&gt;в предоставлении услуги присутствуют?&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-2">
+          <mxGeometry x="740" y="7.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-13" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Подготовка проекта о предоставлении земельного участка&lt;/font&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-2">
+          <mxGeometry x="910" y="50" width="130" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-15" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-2">
+          <mxGeometry x="840" y="62.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-2" source="j_5O-uv8FhCoR-RIhAOP-11" target="j_5O-uv8FhCoR-RIhAOP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-18" value="Да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-2">
+          <mxGeometry x="750" y="122.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-19" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Подготовка проекта об отказе предоставления земельного участка&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="kLCtcZJA-MnO58HOizXd-2">
+          <mxGeometry x="910" y="190" width="130" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="j_5O-uv8FhCoR-RIhAOP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kLCtcZJA-MnO58HOizXd-2" source="j_5O-uv8FhCoR-RIhAOP-11" target="j_5O-uv8FhCoR-RIhAOP-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="625" y="410" />
-              <mxPoint x="505" y="410" />
+              <mxPoint x="800" y="238" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kLCtcZJA-MnO58HOizXd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kLCtcZJA-MnO58HOizXd-3" source="kLCtcZJA-MnO58HOizXd-11" target="kLCtcZJA-MnO58HOizXd-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kLCtcZJA-MnO58HOizXd-36" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Специалисты&lt;br/&gt;органов межведомственного информационного взаимодействия&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="740" width="970" height="60" as="geometry" />
